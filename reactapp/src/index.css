@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f6f8fa;
+  min-height: 100vh;
+  color: #203354;
+}
+
+nav {
+  background: #27405c;
+  color: #fff;
+  padding: 0.7rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 17px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 500;
+  transition: color 0.15s;
+}
+
+nav a:hover {
+  color: #7ec3ff;
+}
+
+h2 {
+  color: #223559;
+  font-family: inherit;
+  font-size: 1.3rem;
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+}
