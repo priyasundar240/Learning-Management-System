@@ -1,0 +1,47 @@
+.progress-container {
+
+max-width: 400px;
+margin: 2rem auto;
+padding: 2rem;
+background-color: #fafafa;
+border-radius: 8px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+text-align: center;
+}
+
+.progress-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.progress-input {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.progress-input:focus {
+  border-color: #007bff;
+}
+
+.progress-button {
+  padding: 0.8rem 1.2rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.progress-button:hover {
+  background-color: #218838;
+}
